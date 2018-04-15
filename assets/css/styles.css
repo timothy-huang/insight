@@ -1,3 +1,7 @@
+html {
+    width: 100%;
+    height: 100%;
+}
 
 body {
     margin: 0 auto;
@@ -5,6 +9,9 @@ body {
     width: 100%;
     height: 100%;
     overflow: hidden;
+    display: flex;
+    justify-content: center;
+    align-items: center;
 }
 
 .img-wrapper {
@@ -47,10 +54,8 @@ body {
 
 .link-wrapper {
     display: flex;
+    position: relative;
     align-items: center;
-    position: absolute;
-    left: 20%;
-    top: 45%;
     background: #E1E6ED;
     border-radius: 100px;
     width: 850px;
@@ -101,8 +106,8 @@ body {
     align-items: center;
     width: 100px;
     height: 45px;
-    left: 20.5%;
-    top: 55%;
+    left: 5px;
+    top: 70px;
     border-radius: 100px;
     background: #252454;
     color: #FFFAF2;
