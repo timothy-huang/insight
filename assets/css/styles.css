@@ -145,3 +145,27 @@ body {
 #be {
     right: 40px;
 }
+
+#transform-button {
+    position: absolute;
+    top:0%;
+    left:0%;
+    width: 45px;
+    height: 45px;
+    border-radius: 100px;
+    background: #1B1A4D;
+}
+
+#transform-button:hover {
+    cursor: pointer;
+    opacity: .8;
+}
+
+.companyName {
+    position: absolute;
+    display: none;
+    top: 100px;
+    font-family: 'Roboto', sans-serif;
+    font-size: 64px;
+    color: #FFFAF2;
+}
