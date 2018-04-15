@@ -10,6 +10,7 @@ from collections import OrderedDict
 from itertools import islice
 app = Flask(__name__)
 
+
 @app.route('/companies/<company_name>')
 def outer_function(company_name):
     def get_first_url(input_string):
@@ -54,10 +55,6 @@ def outer_function(company_name):
     sliced = islice(o.items(), 5)  # o.iteritems() is o.items() in Python 3
     sliced_o = OrderedDict(sliced)
     return json.dumps(sliced_o)
-
-
-
-
 
     """
     End Watson pipeline.
