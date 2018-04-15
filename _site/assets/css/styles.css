@@ -1,0 +1,171 @@
+html {
+    width: 100%;
+    height: 100%;
+}
+
+body {
+    margin: 0 auto;
+    background: #8EB7ED;
+    width: 100%;
+    height: 100%;
+    overflow: hidden;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+
+.img-wrapper {
+    position: absolute;
+    width: 100%;
+    height: 100%;
+    overflow: hidden;
+}
+
+#steve-jobs {
+    position: relative;
+    left: -240px;
+    top: -43px;
+    width: 1000px;
+    height: auto;
+    opacity: .40;
+}
+
+.logo {
+    font-size: 24px;
+    font-family: 'Bad Script', cursive;
+    color: #FFFAF2;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    position: absolute;
+    background: #1A4580;
+    width: 100px;
+    height: 100px;
+    border-radius: 50%;
+    top: 10px;
+    right: 10px;
+}
+
+.logo:hover {
+    opacity: .9;
+    cursor: pointer;
+}
+
+
+.link-wrapper {
+    display: flex;
+    position: relative;
+    align-items: center;
+    background: #E1E6ED;
+    border-radius: 100px;
+    width: 850px;
+    height: 60px;
+}
+
+#link {
+    position: relative;
+    width: 80%;
+    left: 25px;
+    font-size: 32px;
+    font-style: italic;
+    border: none;
+    outline: none;
+    background-color: rgba(0, 0, 0, 0);
+}
+
+#enter-button {
+    position: absolute;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    width: 45px;
+    height: 45px;
+    border-radius: 100px;
+    background: #1B1A4D;
+    right: 20px;
+}
+
+#enter-button:hover {
+    opacity: .8;
+    cursor: pointer;
+}
+
+#arrow {
+    width: 30px;2
+    height: 30px;
+    opacity: .9;
+}
+
+#upload-button {
+    position: absolute;
+    display: flex;
+    font-family: 'Roboto', sans-serif;
+    font-size: 16px;
+    font-weight: 300;
+    justify-content: center;
+    align-items: center;
+    width: 100px;
+    height: 45px;
+    left: 5px;
+    top: 70px;
+    border-radius: 100px;
+    background: #252454;
+    color: #FFFAF2;
+}
+
+#upload-button:hover {
+    opacity: .9;
+    cursor: pointer;
+}
+
+#folder {
+    width: 20px;
+    height: 20px;
+    padding-right: 5px;
+}
+
+.catch-phrase {
+    font-family: 'Bad Script', cursive;
+    position: absolute;
+    bottom: 70px;
+    font-size: 64px;
+    color: #FFFAF2;
+}
+
+#who {
+    right: 320px;
+}
+
+#you {
+    font-size: 128px;
+    bottom: 20px;
+    right: 140px;
+}
+
+#be {
+    right: 40px;
+}
+
+#transform-button {
+    position: absolute;
+    top:0%;
+    left:0%;
+    width: 45px;
+    height: 45px;
+    border-radius: 100px;
+    background: #1B1A4D;
+}
+
+#transform-button:hover {
+    cursor: pointer;
+    opacity: .8;
+}
+
+.companyName {
+    position: absolute;
+    display: none;
+    top: 100px;
+    font-family: 'Roboto', sans-serif;
+    font-size: 64px;
+    color: #FFFAF2;
+}

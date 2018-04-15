@@ -164,8 +164,16 @@ body {
 .companyName {
     position: absolute;
     display: none;
-    top: 100px;
+    top: 20px;
     font-family: 'Roboto', sans-serif;
-    font-size: 64px;
+    font-size: 96px;
     color: #FFFAF2;
+}
+
+.chart-container {
+    position: absolute;
+    top:20%;
+    left:20%;
+    height:30vh;
+    width:60vw;
 }

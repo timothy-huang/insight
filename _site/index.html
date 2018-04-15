@@ -1,0 +1,49 @@
+<!DOCTYPE html>
+
+<html>
+<head>
+    <link rel="stylesheet" type="text/css" href="assets/css/styles.css">
+    <link href="https://fonts.googleapis.com/css?family=Roboto:300,400" rel="stylesheet">
+    <link href="https://fonts.googleapis.com/css?family=Bad+Script" rel="stylesheet">
+    <meta charset="utf-8">
+    <title>Insight - Discover You</title>
+</head>
+
+<body>
+    <div class="img-wrapper"><img id="steve-jobs" src="assets/img/steve_jobs.png"></div>
+    <div class="logo">Insight</div>
+    <div class="link-wrapper">
+        <input id="link" type="text" name="link" placeholder="Paste your link here">
+        <div id="enter-button" class="hvr-sweep-to-right"><img id="arrow" src="assets/img/right-arrow-forward.svg"></div>
+        <div id="upload-button"><img id="folder" src="assets/img/folder.png">Upload</div>
+    </div>
+    <div id="who" class="catch-phrase">Who could </div>
+    <div id="you" class="catch-phrase">you</div>
+    <div id="be" class="catch-phrase"> be?</div>
+    <div id="transform-button"></div>
+    <div class="companyName"></div>
+
+    <script src="https://www.gstatic.com/firebasejs/4.12.1/firebase.js"></script>
+    <script src="https://www.gstatic.com/firebasejs/4.12.1/firebase-app.js"></script>
+    <script src="https://www.gstatic.com/firebasejs/4.12.1/firebase-auth.js"></script>
+    <script src="https://www.gstatic.com/firebasejs/4.12.1/firebase-database.js"></script>
+    <script src="https://www.gstatic.com/firebasejs/4.12.1/firebase-firestore.js"></script>
+    <script src="https://www.gstatic.com/firebasejs/4.12.1/firebase-messaging.js"></script>
+    <script src="https://www.gstatic.com/firebasejs/4.12.1/firebase-functions.js"></script>
+    <script>
+      // Initialize Firebase
+      var config = {
+        apiKey: "AIzaSyAK2EldM-WRRFBFB9gmiqSo8kLO6YrSAak",
+        authDomain: "insight-b5247.firebaseapp.com",
+        databaseURL: "https://insight-b5247.firebaseio.com",
+        projectId: "insight-b5247",
+        storageBucket: "insight-b5247.appspot.com",
+        messagingSenderId: "326847742851"
+      };
+      firebase.initializeApp(config);
+    </script>
+    <script src="https://code.jquery.com/jquery-1.11.0.min.js"></script>
+    <script src="assets/scripts/scripts.js"></script>
+</body>
+
+</html>
