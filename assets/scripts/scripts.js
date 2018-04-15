@@ -6,6 +6,7 @@ $(document).ready(function() {
         $(".link-wrapper").fadeOut();
         $(".catch-phrase").fadeOut();
         setTimeout(function(){
+            $(".companyName").empty();
             $(".companyName").append(companyName);
             $(".companyName").fadeIn();
             $(".chart-container").fadeIn();
@@ -36,7 +37,7 @@ $(document).ready(function() {
 Chart.defaults.global.defaultFontColor = 'white';
 Chart.defaults.global.defaultFontSize = 25;
 Chart.defaults.global.defaultFontFamily = 'Abel';
-var labels = ['extroversion', 'curiosity', 'self-will', 'dumbass']
+var labels = ['extroversion', 'curiosity', 'self-will', 'work-ethic']
 var values = [30.9, 94.2, 93.9, 89.5];
 
 var ctx = document.getElementById("myChart");
